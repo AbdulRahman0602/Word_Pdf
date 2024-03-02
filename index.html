@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WordtoPdf</title>
+</head>
+<body>
+    <!-- multipart/form-data This protocol allows the server to identify which part of the submission contains file data, and to extract that data for processing. -->
+    <form action="/docxtopdf" method="post" enctype="multipart/form-data">
+        <input type="file" name="word" required id="">
+        <input type="submit" value="Download Word File">
+    </form>
+</body>
+</html>
